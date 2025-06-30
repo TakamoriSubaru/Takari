@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darryl Arief Tan | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+      border-bottom: 1px solid #eee;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #ffc107;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    ul {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .project-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0 6px;
+    }
+
+    .contact {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .contact a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    nav a {
+      background: #ffc107;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #e0a800;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <section id="profile" style="text-align: center; padding: 60px 20px; background-color: #111; color: white;">
+      <img src="https://i.imgur.com/ULx2ysU.jpg" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+      <h1 style="margin-top: 20px; font-size: 2.2rem;">Darryl Arief Tan</h1>
+      <p style="font-size: 1.1rem; color: #ccc;">Computer Science | Web Designer | Creative Technologist</p>
+    </section>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 40px;">
+      Hello! I’m Darryl Arief Tan, a Computer Science student at BINUS University with a passion for web development, UI/UX design, multimedia, and creative technology. I love games and have always dreamed of becoming a game developer, blending creativity and technology to craft immersive experiences. While I pursue my ambitions, I also value living a balanced life — one that allows room for learning, creativity, fun, and meaningful relationships.
+    </p>
+
+    <h3>Experience</h3>
+    <ul>
+      <li>Web Designer</li>
+      <li>Game Developer</li>
+      <li>Poster & Livestream Designer</li>
+      <li>Instagram Manager</li>
+      <li>Sunday School Teacher</li>
+      <li>Photographer</li>
+      <li>Creative Team at BINECHA</li>
+      <li>HIMTI WebDev Division</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Figma, Blender, Tinkercad</li>
+      <li>English C1.1 - C2.2 Certified</li>
+      <li>Public Speaking & Organizational Skills</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="BINECHA 2025 Season 4">
+        <h3>BINECHA 2025 Season 4</h3>
+        <p>Creative designs and event visuals for BINECHA 2025 Season 4. View my Canva designs:</p>
+        <ul>
+          <li><a href="https://www.canva.com/design/DAGp75YFj6M/_tOAx8IR3CwAvZ7JhtRINA/edit" target="_blank">Design #1</a></li>
+          <li><a href="https://www.canva.com/design/DAGmqCgS598/niovMtMarBl__RbUTzqHRw/edit" target="_blank">Design #2</a></li>
+          <li><a href="https://www.canva.com/design/DAGnS464ebk/NEvfH72dPyxpVcIe9bDOqQ/edit" target="_blank">Design #3</a></li>
+          <li><a href="https://www.canva.com/design/DAGqgZSvZ6s/bsnAtD8c4x-hqxYv8GOHOA/edit" target="_blank">Design #4</a></li>
+          <li><a href="https://www.canva.com/design/DAGl_DIF9Hs/idOmW96wwQn5_mf-7oQOIA/edit" target="_blank">Design #5</a></li>
+          <li><a href="https://www.canva.com/design/DAGqHvVtPC0/SpeKujTDimlqHrsymRZGQA/edit" target="_blank">Design #6</a></li>
+          <li><a href="https://www.canva.com/design/DAGnYuKOtw0/O-4qN-jVmaUS4to_Os7vew/edit" target="_blank">Design #7</a></li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Anforcom 2023 UI/UX">
+        <h3>Anforcom 2023 UI/UX</h3>
+        <p>Developed a UI/UX project introducing Indonesian culture and transportation systems.<br>
+          <a href="https://www.figma.com/design/eLqqsU4ZOLP0YXOiPAyBH8/Wonderjava?node-id=0-1&t=2jMKwKPHu3bhpklS-1" target="_blank">View Figma Project</a>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Tinkercad Projects">
+        <h3>Tinkercad Projects</h3>
+        <p>
+          - <a href="http://surl.li/fjsdtz" target="_blank">Pengecekan Kesuburan Tanah</a><br>
+          - <a href="http://surl.li/kxnaiy" target="_blank">Pintu Pompa Air</a>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Figma News">
+        <h3>Figma - News Ekonomi Indonesia</h3>
+        <p>A UI/UX design concept about Indonesian economic news.<br>
+          <a href="http://surl.li/tbjrnm" target="_blank">View Figma Design</a>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Blender US Capitol">
+        <h3>Blender - US Capitol</h3>
+        <p>3D model of the US Capitol building created in Blender.<br>
+          <a href="http://surl.li/owvvwa" target="_blank">View Model</a>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Photography Project">
+        <h3>Photography</h3>
+        <p>A collection of event and creative photography works.<br>
+          <a href="https://drive.google.com/drive/folders/1hd638LODWLZ_FiWLkcPzzkGjg-DpP7Rb?usp=drive_link" target="_blank">View Album</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements & Certificates</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="https://i.imgur.com/DQFmp89.jpg" alt="C1.1 - Creative Writing" />
+        <h3>Creative Writing (C1.1)</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://i.imgur.com/udJluP8.jpg" alt="C1.2 - Professional Office" />
+        <h3>Professional Office (C1.2)</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://i.imgur.com/Ug9wSAm.jpg" alt="C2.1 - Advanced English" />
+        <h3>Advanced English (C2.1)</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://i.imgur.com/qxFTEy5.jpg" alt="C2.2 - Market Research & Communication" />
+        <h3>Market Research & Communication (C2.2)</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://i.imgur.com/yec4wDB.jpg" alt="Debate Certificate" />
+        <h3>3rd Winner – Debate Club</h3>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact">
+    <p>📞 +62 8123 8910 512</p>
+    <p>✉️ <a href="mailto:darryl.tananjaya@binus.ac.id">darryl.tananjaya@binus.ac.id</a></p>
+    <p>🎓 NIM: 2802424736</p>
+    <p><a href="https://github.com/TakamoriSubaru" target="_blank">GitHub</a> | 
+    <a href="https://www.linkedin.com/in/darryl-tananjaya-741a5732a/" target="_blank">LinkedIn</a> | 
+    <a href="https://www.instagram.com/darryl_tananjaya/" target="_blank">Instagram</a></p>
+  </div>
+
+</body>
+</html>
