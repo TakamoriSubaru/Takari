@@ -1,0 +1,2 @@
+# Takari
+Personal Portofolio
